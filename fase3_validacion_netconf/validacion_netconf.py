@@ -11,11 +11,10 @@ print(f"Host: {socket.gethostname()}\n")
 with open("../vars/vars_005D-19.yaml") as f:
     vars = yaml.safe_load(f)
 
-filter_xml = '''<filter><native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native"></native></filter>'''
-
 try:
+    # Nos conectamos y pedimos TODO el árbol de configuración (source='running') sin filtro
     with manager.connect(host=vars['router']['ip'], port=830, username=vars['router']['usuario'], password=vars['router']['password'], hostkey_verify=False, look_for_keys=False, allow_agent=False) as m:
-        netconf_reply = m.get_config(source='running', filter=filter_xml)
+        netconf_reply = m.get_config(source='running')
         xml_data = netconf_reply.xml
         
         with open("evidencias/rpc_reply_raw.xml", "w") as f:

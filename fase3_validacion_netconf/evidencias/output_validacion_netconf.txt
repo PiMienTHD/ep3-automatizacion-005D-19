@@ -1,6 +1,6 @@
 === REPORTE NETCONF ===
 Script: validacion_netconf.py
-Fecha: 2026-06-09 15:05:15.438007
+Fecha: 2026-06-09 15:07:11.388223
 Host: labvm
 
 [OK] Hostname: RTR-TRANLAC
