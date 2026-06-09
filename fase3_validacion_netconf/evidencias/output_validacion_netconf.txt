@@ -1,0 +1,12 @@
+=== REPORTE NETCONF ===
+Script: validacion_netconf.py
+Fecha: 2026-06-09 15:05:15.438007
+Host: labvm
+
+[OK] Hostname: RTR-TRANLAC
+[FAIL] Loopback IP: 10.5.19.1 no encontrado en XML
+[FAIL] Loopback Mask: 255.255.255.0 no encontrado en XML
+[FAIL] Descripcion WAN: Enlace-WAN-Curico no encontrado en XML
+[FAIL] Servidor NTP: 9.9.9.9 no encontrado en XML
+
+RESULTADO GLOBAL: NO CONFORME
