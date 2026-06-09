@@ -1,0 +1,11 @@
+=== REPORTE RESTCONF ===
+Script: validacion_restconf.py
+Fecha: 2026-06-09 15:10:20.376793
+Host: labvm
+
+[OK] Hostname
+[OK] Loopback
+[OK] Interfaces
+[OK] NTP
+
+RESULTADO GLOBAL: CONFORME
