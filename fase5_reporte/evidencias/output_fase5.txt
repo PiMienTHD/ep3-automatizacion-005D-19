@@ -1,0 +1,13 @@
+CERTIFICADO DE COMPLIANCE
+=========================
+Alumno: Valdebenito Duran Adrian Alejandro
+Codigo: 005D-19
+Empresa: Transporte Lacustre SA
+Hostname: RTR-TRANLAC
+
+[OK] NETCONF: CONFORME
+[OK] RESTCONF: CONFORME
+[OK] DIFF: Cambios detectados y validados
+
+RESULTADO FINAL: CONFORME
+
