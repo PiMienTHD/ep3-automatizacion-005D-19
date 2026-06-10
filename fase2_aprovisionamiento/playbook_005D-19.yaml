@@ -32,7 +32,7 @@
     - name: Configurar banner de acceso
       ios_config:
         lines:
-          - banner motd ^{{ cliente.banner }}^
+          - banner motd ^{{ router.banner }}^
     - name: Configurar servidor NTP
       ios_config:
         lines:
