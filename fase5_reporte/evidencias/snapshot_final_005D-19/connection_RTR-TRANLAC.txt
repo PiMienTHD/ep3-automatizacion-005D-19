@@ -1,36 +1,22 @@
-[2026-06-09 15:19:40,851] +++ RTR-TRANLAC logfile evidencias/snapshot_final_005D-19/connection_RTR-TRANLAC.txt +++
-[2026-06-09 15:19:40,852] +++ Unicon plugin iosxe +++
+[2026-06-23 14:54:18,711] +++ RTR-TRANLAC logfile evidencias/snapshot_final_005D-19/connection_RTR-TRANLAC.txt +++
+[2026-06-23 14:54:18,712] +++ Unicon plugin iosxe +++
 Warning: Permanently added '192.168.56.101' (RSA) to the list of known hosts.
 
-[2026-06-09 15:19:41,140] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null, id: 140395720653408 +++
-[2026-06-09 15:19:41,141] connection to RTR-TRANLAC
+[2026-06-23 14:54:18,793] +++ connection to spawn: ssh -l cisco 192.168.56.101 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null, id: 140239583808096 +++
+[2026-06-23 14:54:18,793] connection to RTR-TRANLAC
 Password: 
-
-*                                           *
-**                                         **
-***                                       ***
-***  Cisco Networking Academy             ***
-***   Emerging Technologies Workshop:     ***
-***    Model Driven Programmability       ***
-***                                       ***
-***  This software is provided for        ***
-***   Educational Purposes                ***
-***    Only in Networking Academies       ***
-***                                       ***
-**                                         **
-*                                           *
-
+ACCESO RESTRINGIDO - TRANLAC
 
 
 RTR-TRANLAC#
-[2026-06-09 15:19:41,507] +++ initializing handle +++
-[2026-06-09 15:19:41,507] +++ RTR-TRANLAC: executing command 'term length 0' +++
+[2026-06-23 14:54:18,992] +++ initializing handle +++
+[2026-06-23 14:54:18,994] +++ RTR-TRANLAC: executing command 'term length 0' +++
 term length 0
 RTR-TRANLAC#
-[2026-06-09 15:19:41,661] +++ RTR-TRANLAC: executing command 'term width 0' +++
+[2026-06-23 14:54:19,216] +++ RTR-TRANLAC: executing command 'term width 0' +++
 term width 0
 RTR-TRANLAC#
-[2026-06-09 15:19:41,807] +++ RTR-TRANLAC: executing command 'show version' +++
+[2026-06-23 14:54:19,383] +++ RTR-TRANLAC: executing command 'show version' +++
 show version
 Cisco IOS XE Software, Version 16.09.05
 Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
@@ -52,8 +38,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-RTR-TRANLAC uptime is 44 minutes
-Uptime for this control processor is 46 minutes
+RTR-TRANLAC uptime is 1 hour, 35 minutes
+Uptime for this control processor is 1 hour, 38 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: reload

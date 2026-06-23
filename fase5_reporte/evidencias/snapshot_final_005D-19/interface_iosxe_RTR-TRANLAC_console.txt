@@ -19,18 +19,18 @@ GigabitEthernet1 is up, line protocol is up
   Input queue: 1/375/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
   Output queue: 0/40 (size/max)
-  5 minute input rate 1000 bits/sec, 1 packets/sec
-  5 minute output rate 1000 bits/sec, 1 packets/sec
-     4764 packets input, 546788 bytes, 0 no buffer
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     8680 packets input, 988314 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     2626 packets output, 775225 bytes, 0 underruns
+     4815 packets output, 1302379 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
-     0 lost carrier, 0 no carrier, 0 pause output
+     1 lost carrier, 0 no carrier, 0 pause output
      0 output buffer failures, 0 output buffers swapped out
 Loopback10 is up, line protocol is up 
   Hardware is Loopback
@@ -59,10 +59,10 @@ RTR-TRANLAC#
 show interfaces accounting
 GigabitEthernet1 Enlace-WAN-Curico
                 Protocol    Pkts In   Chars In   Pkts Out  Chars Out
-                   Other         25       1176         20       1200
-                      IP       4318     510083       2617     744307
-                     ARP         26       1218         21       1260
-                    IPv6        443      42383          0          0
+                   Other         59       2622         41       2460
+                      IP       7999     933324       4774    1242139
+                     ARP         59       2622         41       2460
+                    IPv6        626      60858          0          0
 Loopback10 
                 Protocol    Pkts In   Chars In   Pkts Out  Chars Out
 No traffic sent or received on this interface.

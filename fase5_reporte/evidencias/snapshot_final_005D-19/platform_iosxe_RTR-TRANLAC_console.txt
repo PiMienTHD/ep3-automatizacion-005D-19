@@ -20,8 +20,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-RTR-TRANLAC uptime is 44 minutes
-Uptime for this control processor is 46 minutes
+RTR-TRANLAC uptime is 1 hour, 35 minutes
+Uptime for this control processor is 1 hour, 38 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: reload
@@ -73,7 +73,7 @@ Directory of bootflash:/
 471425  drwx             4096  May 28 2026 14:30:17 +00:00  core
 235713  drwx             4096  May 28 2026 14:41:18 +00:00  .prst_sync
 178817  drwx             4096  May 28 2026 14:23:30 +00:00  .rollback_timer
-438913  drwx            28672   Jun 9 2026 15:24:31 +00:00  tracelogs
+438913  drwx            28672   Jun 9 2026 16:15:58 +00:00  tracelogs
 162561  drwx             4096  May 28 2026 14:24:42 +00:00  .dbpersist
 186945  drwx             4096  May 28 2026 14:23:48 +00:00  virtual-instance
    15  -rw-               30   Jun 9 2026 14:45:10 +00:00  throughput_monitor_params
@@ -83,13 +83,13 @@ Directory of bootflash:/
    19  -rw-              157   Jun 9 2026 14:45:19 +00:00  csrlxc-cfg.log
 422657  drwx             4096  May 28 2026 14:24:41 +00:00  onep
 
-7897796608 bytes total (7005646848 bytes free)
+7897796608 bytes total (7005630464 bytes free)
 RTR-TRANLAC#
 +++ RTR-TRANLAC: executing command 'show redundancy' +++
 show redundancy
 Redundant System Information :
 ------------------------------
-       Available system uptime = 44 minutes
+       Available system uptime = 1 hour, 35 minutes
 Switchovers system experienced = 0
               Standby failures = 0
         Last switchover reason = none
@@ -104,7 +104,7 @@ Current Processor Information :
 -------------------------------
                Active Location = slot 6
         Current Software state = ACTIVE
-       Uptime in current state = 44 minutes
+       Uptime in current state = 1 hour, 35 minutes
                  Image Version = Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
 Technical Support: http://www.cisco.com/techsupport
 Copyright (c) 1986-2020 by Cisco Systems, Inc.
@@ -141,8 +141,8 @@ Chassis type: CSR1000V
 
 Slot      Type                State                 Insert time (ago) 
 --------- ------------------- --------------------- ----------------- 
-R0        CSR1000V            ok, active            00:45:47      
-F0        CSR1000V            ok, active            00:45:47      
+R0        CSR1000V            ok, active            01:36:58      
+F0        CSR1000V            ok, active            01:36:58      
 
 RTR-TRANLAC#
 +++ RTR-TRANLAC: executing command 'show issu state detail' +++
