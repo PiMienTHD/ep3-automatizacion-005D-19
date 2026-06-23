@@ -21,12 +21,12 @@ GigabitEthernet1 is up, line protocol is up
   Output queue: 0/40 (size/max)
   5 minute input rate 0 bits/sec, 0 packets/sec
   5 minute output rate 0 bits/sec, 0 packets/sec
-     8680 packets input, 988314 bytes, 0 no buffer
+     9021 packets input, 1026306 bytes, 0 no buffer
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
      0 watchdog, 0 multicast, 0 pause input
-     4815 packets output, 1302379 bytes, 0 underruns
+     5172 packets output, 1362718 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 babbles, 0 late collision, 0 deferred
@@ -39,7 +39,7 @@ Loopback10 is up, line protocol is up
      reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation LOOPBACK, loopback not set
   Keepalive set (10 sec)
-  Last input never, output never, output hang never
+  Last input 00:00:02, output never, output hang never
   Last clearing of "show interface" counters never
   Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
   Queueing strategy: fifo
@@ -50,7 +50,7 @@ Loopback10 is up, line protocol is up
      Received 0 broadcasts (0 IP multicasts)
      0 runts, 0 giants, 0 throttles 
      0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
-     0 packets output, 0 bytes, 0 underruns
+     17 packets output, 1249 bytes, 0 underruns
      0 output errors, 0 collisions, 0 interface resets
      0 unknown protocol drops
      0 output buffer failures, 0 output buffers swapped out
@@ -59,13 +59,13 @@ RTR-TRANLAC#
 show interfaces accounting
 GigabitEthernet1 Enlace-WAN-Curico
                 Protocol    Pkts In   Chars In   Pkts Out  Chars Out
-                   Other         59       2622         41       2460
-                      IP       7999     933324       4774    1242139
-                     ARP         59       2622         41       2460
-                    IPv6        626      60858          0          0
+                   Other         64       2904         43       2580
+                      IP       8337     973587       5130    1298153
+                     ARP         64       2904         43       2580
+                    IPv6        633      61557          0          0
 Loopback10 
                 Protocol    Pkts In   Chars In   Pkts Out  Chars Out
-No traffic sent or received on this interface.
+                      IP         17       1249         17       1249
 RTR-TRANLAC#
 +++ RTR-TRANLAC: executing command 'show ip interface' +++
 show ip interface

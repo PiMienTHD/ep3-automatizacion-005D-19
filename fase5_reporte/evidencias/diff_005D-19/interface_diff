@@ -1,0 +1,8 @@
+--- ../fase1_baseline/evidencias/baseline_005D-19/interface_interface.txt
++++ evidencias/snapshot_final_005D-19/interface_interface.txt
+ interface GigabitEthernet1
++ description Enlace-WAN-Curico
++!
++interface Loopback19
++ ip address 10.5.19.1 255.255.255.255
++!

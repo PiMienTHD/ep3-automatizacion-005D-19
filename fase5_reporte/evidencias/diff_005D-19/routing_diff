@@ -1,0 +1,3 @@
+--- ../fase1_baseline/evidencias/baseline_005D-19/routing_routes.txt
++++ evidencias/snapshot_final_005D-19/routing_routes.txt
++10.5.19.1/32 is directly connected, Loopback19

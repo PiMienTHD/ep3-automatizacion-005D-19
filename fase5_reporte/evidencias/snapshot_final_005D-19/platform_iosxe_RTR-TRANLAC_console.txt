@@ -20,8 +20,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-RTR-TRANLAC uptime is 1 hour, 35 minutes
-Uptime for this control processor is 1 hour, 38 minutes
+RTR-TRANLAC uptime is 1 hour, 39 minutes
+Uptime for this control processor is 1 hour, 41 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: reload
@@ -89,7 +89,7 @@ RTR-TRANLAC#
 show redundancy
 Redundant System Information :
 ------------------------------
-       Available system uptime = 1 hour, 35 minutes
+       Available system uptime = 1 hour, 39 minutes
 Switchovers system experienced = 0
               Standby failures = 0
         Last switchover reason = none
@@ -104,7 +104,7 @@ Current Processor Information :
 -------------------------------
                Active Location = slot 6
         Current Software state = ACTIVE
-       Uptime in current state = 1 hour, 35 minutes
+       Uptime in current state = 1 hour, 38 minutes
                  Image Version = Cisco IOS Software [Fuji], Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M), Version 16.9.5, RELEASE SOFTWARE (fc1)
 Technical Support: http://www.cisco.com/techsupport
 Copyright (c) 1986-2020 by Cisco Systems, Inc.
@@ -141,8 +141,8 @@ Chassis type: CSR1000V
 
 Slot      Type                State                 Insert time (ago) 
 --------- ------------------- --------------------- ----------------- 
-R0        CSR1000V            ok, active            01:36:58      
-F0        CSR1000V            ok, active            01:36:58      
+R0        CSR1000V            ok, active            01:40:23      
+F0        CSR1000V            ok, active            01:40:23      
 
 RTR-TRANLAC#
 +++ RTR-TRANLAC: executing command 'show issu state detail' +++

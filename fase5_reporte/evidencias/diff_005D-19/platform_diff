@@ -1,0 +1,11 @@
+--- ../fase1_baseline/evidencias/baseline_005D-19/platform_boot.txt
++++ evidencias/snapshot_final_005D-19/platform_boot.txt
+-hostname CSR1kv
++hostname RTR-TRANLAC
++banner motd ^C
++=====================================================================
++* *
++* ACCESO RESTRINGIDO - SOLO PERSONAL AUTORIZADO - DUOC UC 2026     *
++* *
++=====================================================================
++^C
